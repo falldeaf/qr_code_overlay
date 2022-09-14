@@ -1,13 +1,14 @@
 #!/bin/python
-from email.policy import default
 from tkinter import *
-import base64
 from PIL import ImageTk, Image
-from numpy import pad
 import requests
-from io import BytesIO
 import argparse
 from screeninfo import get_monitors
+from io import BytesIO
+
+#from numpy import pad
+#import base64
+#from email.policy import default
 
 parser = argparse.ArgumentParser()
 
